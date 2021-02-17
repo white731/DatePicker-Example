@@ -10,6 +10,9 @@ export default () => {
       <Link to="/things">
         <Menu.Item name='Things'/>
       </Link>
+      <Link to="/datepicker">
+        <Menu.Item name='Date Picker'/>
+      </Link>
   </Menu>
   )
 

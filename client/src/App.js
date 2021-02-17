@@ -6,6 +6,7 @@ import { Route, Switch } from 'react-router-dom';
 import Things from './demo/Things';
 import NoMatch from './components/NoMatch';
 import NavBar from './components/NavBar';
+import DatePicker from './components/DatePicker';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Switch>
      <Route exact path='/' component={Home}/>
      <Route exact path='/things' component={Things}/>
+     <Route exact path='/datepicker' component={DatePicker}/>
      <Route component={NoMatch} />
     </Switch>
   </Container>
